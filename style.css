@@ -1,0 +1,24 @@
+/* Стиль для заголовка страницы */
+.header{
+    font: 25px bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.mainPart{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border: solid black 2px;
+    width: 50px;
+    height: 50px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.winColor{
+    background-color: green;
+}
