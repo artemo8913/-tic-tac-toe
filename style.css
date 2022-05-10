@@ -1,3 +1,6 @@
+body{
+    background-color: whitesmoke;
+}
 /* Стиль для заголовка страницы */
 .header{
     font: 25px bold;

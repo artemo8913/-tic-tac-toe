@@ -17,9 +17,11 @@ var gameIsOver = false;
 function playerMove() {
     if (gameIsOver) alert("Игра уже закончена! Для новой игры перезапустите страницу!");
     else {
-        if (!gameField[this.id]) gameField[this.id] = "X";
+        if (!gameField[this.id]) {
+            gameField[this.id] = "X";
+            aiMove();
+        }
         else alert("Место уже занято!");
-        aiMove();
         btnFill();
         gameOver();
         if (gameIsOver) alert(gameOverText);
